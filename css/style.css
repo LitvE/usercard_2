@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    background: aquamarine;
+}
+
+.userCard{
+    width: 100%;
+    height: 500px;
+    min-width: 220px;
+    max-width: 450px;
+    background-color: lightgray;
+    margin: 20px;
+    color: black;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.userImageContainer{
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 5px solid white;
+    border-radius: 50%;
+
+}
+
+div.userImageContainer > img{
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+
+}
+
+.userInfoContainer{
+    text-align: center;
+}
+
+.userFullName{
+    margin: 10px;
+    font-size: 40px;
+}
+
+.userLifeHistory{
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 8;
+}
+
+.buttonFollow{
+    
+    height: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    text-align:center;
+    vertical-align: middle;
+    color: white;
+    line-height: 50px;
+    font-size: 1.5em;
+    font-weight: 700;
+    
+}
+
+.button{
+    
+    vertical-align: middle;
+}
+
+
+.userStatContainer{
+    padding: 10px;
+    background-color: darkgreen;
+    vertical-align: middle;
+
+}
+
+.UserStatItem{
+    display: inline-block;
+    width: 110px;
+    height: 150px;
+    margin: 20px 10px 10px 0px;
+    overflow: hidden;
+}
+
+.statImage{
+    float: left;
+    margin: 2px;
+}
